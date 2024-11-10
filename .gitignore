@@ -1,3 +1,9 @@
 .DS_Store
 sftp-config.json
 
+
+
+# 项目中不提交的文件
+/experiments
+__pycache__
+log
