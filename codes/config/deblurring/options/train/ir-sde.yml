@@ -24,8 +24,8 @@ datasets:
   train:
     name: Train_Dataset
     mode: LQGT
-    dataroot_GT: /home/ziwlu/datasets/gopro/test_full/GT
-    dataroot_LQ: /home/ziwlu/datasets/gopro/test_full/LQ
+    dataroot_GT: ../../../datasets/data_4000/train/HR
+    dataroot_LQ: ../../../datasets/data_4000/train/LQ
 
     use_shuffle: true
     n_workers: 4  # per GPU
@@ -38,8 +38,8 @@ datasets:
   val:
     name: Val_Dataset
     mode: LQGT
-    dataroot_GT: /home/ziwlu/datasets/gopro/test_full/GT
-    dataroot_LQ: /home/ziwlu/datasets/gopro/test_full/LQ
+    dataroot_GT: ../../../datasets/data_4000/val/HR
+    dataroot_LQ: ../../../datasets/data_4000/val/LQ
 
 
 #### network structures
