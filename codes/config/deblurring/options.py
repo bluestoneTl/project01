@@ -7,6 +7,7 @@ import math
 import yaml
 
 try:
+    sys.path.append("/nc1test1/tl/project01/codes")
     sys.path.append("../../")
     from utils import OrderedYaml
 except ImportError:
