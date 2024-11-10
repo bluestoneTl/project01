@@ -16,7 +16,9 @@ import yaml
 #     from utils import OrderedYaml
 # except ImportError:
 #     pass
+sys.path.append("/nc1test1/tl/project01/codes/")
 sys.path.append("../../utils")
+sys.path.append("../../")
 from utils import OrderedYaml
 
 Loader, Dumper = OrderedYaml()
